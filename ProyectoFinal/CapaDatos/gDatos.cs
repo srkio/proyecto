@@ -8,5 +8,6 @@ namespace CapaDatos
 {
     public class gDatos
     {
+        cualquiercosa
     }
 }
