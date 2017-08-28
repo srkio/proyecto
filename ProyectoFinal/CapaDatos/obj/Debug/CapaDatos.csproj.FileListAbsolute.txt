@@ -1,0 +1,5 @@
+C:\Users\srkio\Desktop\daniel\proyecto\ProyectoFinal\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\srkio\Desktop\daniel\proyecto\ProyectoFinal\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\srkio\Desktop\daniel\proyecto\ProyectoFinal\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\srkio\Desktop\daniel\proyecto\ProyectoFinal\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\srkio\Desktop\daniel\proyecto\ProyectoFinal\CapaDatos\obj\Debug\CapaDatos.pdb
