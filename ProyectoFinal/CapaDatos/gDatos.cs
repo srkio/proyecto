@@ -73,7 +73,7 @@ namespace CapaDatos
         {
             SqlCommand cmd = new SqlCommand("Modificar_Atracador", miCon);
             cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Parameters.Add("@ciex", SqlDbType.Int).Value = ci;
+            cmd.Parameters.Add("@ci", SqlDbType.Int).Value = ci;
             cmd.Parameters.Add("@ciex", SqlDbType.Char).Value = ciex;
             cmd.Parameters.Add("@nombre", SqlDbType.VarChar).Value = nombre;
             cmd.Parameters.Add("@apePaterno", SqlDbType.Char).Value = apePaterno;
