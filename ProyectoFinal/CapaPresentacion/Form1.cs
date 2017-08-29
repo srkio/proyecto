@@ -78,7 +78,7 @@ namespace CapaPresentacion
 
         private void listadoAtracador_RowEnter(object sender, DataGridViewCellEventArgs e)
         {
-            
+
         }
     }
 }

@@ -11,3 +11,9 @@ C:\Users\srkio\Desktop\daniel\proyecto\ProyectoFinal\CapaPresentacion\bin\Debug\
 C:\Users\srkio\Desktop\daniel\proyecto\ProyectoFinal\CapaPresentacion\bin\Debug\CapaDatos.pdb
 C:\Users\srkio\Desktop\daniel\proyecto\ProyectoFinal\CapaPresentacion\obj\Debug\CapaPresentacion.exe
 C:\Users\srkio\Desktop\daniel\proyecto\ProyectoFinal\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\srkio\Desktop\daniel\proyecto\ProyectoFinal\CapaPresentacion\obj\Debug\CapaPresentacion.Form2.resources
+C:\Users\srkio\Desktop\daniel\proyecto\ProyectoFinal\CapaPresentacion\obj\Debug\RdlCompile.cache
+C:\Users\srkio\Desktop\daniel\proyecto\ProyectoFinal\CapaPresentacion\obj\Debug\RdlCompile.compiled
+C:\Users\srkio\Desktop\daniel\proyecto\ProyectoFinal\CapaPresentacion\obj\Debug\CapaPresentacion.MostrarReporte.resources
+C:\Users\srkio\Desktop\daniel\proyecto\ProyectoFinal\CapaPresentacion\obj\Debug\CapaPresentacion.frm3.resources
+C:\Users\srkio\Desktop\daniel\proyecto\ProyectoFinal\CapaPresentacion\obj\Debug\CapaPresentacion.MostrarReporte2.resources

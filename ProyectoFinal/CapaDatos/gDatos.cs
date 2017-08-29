@@ -80,6 +80,7 @@ namespace CapaDatos
             CrearTablaenRam();
             miCon.Close();
         }
+        
         #endregion
     }
 }
