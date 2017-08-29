@@ -45,6 +45,7 @@
             this.fecha = new System.Windows.Forms.DateTimePicker();
             this.listadoDeBandas = new System.Windows.Forms.ComboBox();
             this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.Genero.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.listadoAtracador)).BeginInit();
             this.SuspendLayout();
@@ -174,7 +175,7 @@
             this.listadoAtracador.RowTemplate.Height = 24;
             this.listadoAtracador.Size = new System.Drawing.Size(772, 175);
             this.listadoAtracador.TabIndex = 12;
-            this.listadoAtracador.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.listadoAtracador_RowEnter);
+            this.listadoAtracador.DoubleClick += new System.EventHandler(this.listadoAtracador_DoubleClick);
             // 
             // fecha
             // 
@@ -202,11 +203,22 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(602, 136);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 16;
+            this.button4.Text = "Actualizar";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(772, 493);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.listadoDeBandas);
             this.Controls.Add(this.fecha);
@@ -252,6 +264,7 @@
         private System.Windows.Forms.DateTimePicker fecha;
         private System.Windows.Forms.ComboBox listadoDeBandas;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
     }
 }
 
