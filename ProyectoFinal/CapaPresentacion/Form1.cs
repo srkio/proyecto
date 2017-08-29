@@ -79,17 +79,12 @@ namespace CapaPresentacion
         private void button3_Click(object sender, EventArgs e)
         {
             int row = listadoAtracador.CurrentCell.RowIndex;
+
+            // Se hace un casting del valor del datagrid por que este es de tipo Object
+            // un casting es una conversion de tipos de datos
             int ci = (int)listadoAtracador.Rows[row].Cells[0].Value;
             listadoAtracador.DataSource = objAtracador.EliminarAtracador(ci).Tables[0];
         }
-
-        // Generar el evento click de un nuevo boton para modificar
-        
-
-        // Cargar el evento doble click del datagrid
-        // Seleccionar un atracador del datagrid
-        // La fila que se seleccione se cargara en los inputs
-      
 
         private void button4_Click(object sender, EventArgs e)
         {
@@ -140,9 +135,9 @@ namespace CapaPresentacion
                     femenino.Checked = true;
                 }
 
-                // TODO: Ver como convertir la fecha de string a DateTime para que se pueda cargar en el
-                // calendario del formulario
-                //fecha.Value = (DateTimePickerFormat)listadoAtracador.Rows[row].Cells[6].Value;
+                // Probar alguna de las opciones para cargar la fecha al componente
+                // fecha.Value = DateTime.Parse((string)listadoAtracador.Rows[row].Cells[6].Value).ToShortDateString();
+                // fecha.Value = DateTime.Parse((string)listadoAtracador.Rows[row].Cells[6].Value).Date;
 
                 listadoDeBandas.SelectedIndex = ((int)listadoAtracador.Rows[row].Cells[9].Value) - 1;
             }

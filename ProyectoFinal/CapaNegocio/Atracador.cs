@@ -18,6 +18,21 @@ namespace CapaNegocio
         public DataSet Atracadores()
         {
             cons = "select * from persona inner join atracador on persona.ci = atracador.ciP";
+
+            // En la capa de datos se almacena la consulta en la variable CONSULTA
+            // y esta variable permanece cargada mientras se realizan todas las operaciones (Guardar, Modificar y Eliminar)
+            // es por esto que es posible actualizar la lista en cada operacion sin necesidad de volver a realizar la consulta
+            objDat.CONSULTA = cons;
+
+            // Idem que CONSULTA
+            objDat.TB = Tbl;
+            objDat.Conectar();
+            objDat.CrearTablaenRam();
+            return objDat.ds;
+        }
+
+        public DataSet Atracadores(string cons)
+        {
             objDat.CONSULTA = cons;
             objDat.TB = Tbl;
             objDat.Conectar();
@@ -27,7 +42,10 @@ namespace CapaNegocio
 
         public DataSet GuardarAtracador(string ciex, string nombre, string apP, string apM, char gen, string fecNac, int codBanda)
         {
+            // Llama al evento GuardarSP de la capa de datos
             objDat.GuardarSP(ciex, nombre, apP, apM, gen, fecNac, codBanda);
+
+            // Obtiene y devuelve el listado actualizado de los atracadores
             return objDat.ds;
         }
 
