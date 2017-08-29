@@ -31,6 +31,12 @@ namespace CapaNegocio
             return objDat.ds;
         }
 
+        public DataSet ModificarAtracador(int ci, string ciex, string nombre, string apP, string apM, char gen, string fecNac, int codBanda)
+        {
+            objDat.ModificarSP(ci, ciex, nombre, apP, apM, gen, fecNac, codBanda);
+            return objDat.ds;
+        }
+
         public DataSet EliminarAtracador(int ci)
         {
             objDat.EliminarSP(ci);

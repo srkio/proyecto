@@ -174,7 +174,6 @@
             this.listadoAtracador.RowTemplate.Height = 24;
             this.listadoAtracador.Size = new System.Drawing.Size(772, 175);
             this.listadoAtracador.TabIndex = 12;
-            this.listadoAtracador.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.listadoAtracador_RowEnter);
             // 
             // fecha
             // 
